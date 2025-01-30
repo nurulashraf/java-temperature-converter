@@ -19,11 +19,11 @@ A simple Java-based temperature converter that converts between Celsius, Fahrenh
    ```
 3. Compile the Java program:
    ```sh
-   javac -d bin src/temperature_converter/Temperature_Converter.java
+   javac -d bin src/temperature_converter/TemperatureConverter.java
    ```
 4. Run the program:
    ```sh
-   java -cp bin temperature_converter.Temperature_Converter
+   java -cp bin temperatureconverter.TemperatureConverter
    ```
 
 ## Usage

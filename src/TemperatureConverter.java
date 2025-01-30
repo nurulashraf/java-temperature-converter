@@ -1,4 +1,4 @@
-package temperature_converter;
+package temperatureconverter;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * A simple Temperature Converter that converts between Celsius, Fahrenheit, and Kelvin.
  */
-public class Temperature_Converter {
+public class TemperatureConverter {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

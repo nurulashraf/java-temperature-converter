@@ -9,17 +9,17 @@ import java.util.Scanner;
 public class TemperatureConverter {
     
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         try {
             System.out.println("Enter temperature value:");
-            double temperature = scanner.nextDouble();
+            double temperature = input.nextDouble();
             
             System.out.println("Select the input unit: (C)elsius, (F)ahrenheit, (K)elvin");
-            char inputUnit = Character.toUpperCase(scanner.next().charAt(0));
+            char inputUnit = Character.toUpperCase(input.next().charAt(0));
             
             System.out.println("Select the output unit: (C)elsius, (F)ahrenheit, (K)elvin");
-            char outputUnit = Character.toUpperCase(scanner.next().charAt(0));
+            char outputUnit = Character.toUpperCase(input.next().charAt(0));
             
             double convertedTemperature = convertTemperature(temperature, inputUnit, outputUnit);
             System.out.printf("Converted temperature: %.2f %c%n", convertedTemperature, outputUnit);
@@ -28,7 +28,7 @@ public class TemperatureConverter {
         } catch (IllegalArgumentException e) {
             System.out.println("Error: " + e.getMessage());
         } finally {
-            scanner.close();
+            input.close();
         }
     }
     

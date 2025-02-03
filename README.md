@@ -11,7 +11,7 @@ A simple Java-based temperature converter that converts between Celsius, Fahrenh
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/java-temperature-converter.git
+   git clone https://github.com/nurulashraf/java-temperature-converter.git
    ```
 2. Navigate to the project directory:
    ```sh
